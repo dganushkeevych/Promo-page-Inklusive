@@ -9,7 +9,7 @@ body{
 
 .navbar{
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.2em;
     background: rgba(0, 0, 0, 0.6) !important;
@@ -143,7 +143,7 @@ body{
   
   .numbers .rect h1 {
     font-size: 5rem;
-    color: tomato;
+    color: #e00000;
   }
   
   .numbers .rect > p {
@@ -259,11 +259,26 @@ div.box{
     padding-top: 5px;
     margin-top: 10px;
     margin-left: 10px;
-  }
+}
 
-  #btn:hover {
+#btn:hover {
     background: transparent;
-  }
+}
+
+/*--------------------Service start--------------*/
+
+.btn-red{
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-green{
+    background-color: green;
+    color: black;
+    font-weight: bold;
+}
+
 
 
 /*----------=--- Media Query---------------*/
